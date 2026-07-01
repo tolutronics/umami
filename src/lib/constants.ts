@@ -229,32 +229,33 @@ export const ROLE_PERMISSIONS = {
 
 export const THEME_COLORS = {
   light: {
-    primary: '#2680eb',
+    primary: '#10b981',
     text: '#838383',
-    line: '#d9d9d9',
-    fill: '#f9f9f9',
+    line: '#e5e7eb',
+    fill: '#f9fafb',
   },
   dark: {
-    primary: '#2680eb',
+    primary: '#34d399',
     text: '#7b7b7b',
-    line: '#3a3a3a',
-    fill: '#191919',
+    line: '#2a2a2a',
+    fill: '#171717',
   },
 } as const;
 
+// Categorical palette led by the brand emerald/teal, then a cohesive modern spectrum.
 export const CHART_COLORS = [
-  '#2680eb',
-  '#9256d9',
-  '#44b556',
-  '#e68619',
-  '#e34850',
-  '#f7bd12',
-  '#01bad7',
-  '#6734bc',
-  '#89c541',
-  '#ffc301',
-  '#ec1562',
-  '#ffec16',
+  '#10b981', // emerald (brand)
+  '#14b8a6', // teal (accent)
+  '#0ea5e9', // sky
+  '#6366f1', // indigo
+  '#f59e0b', // amber
+  '#ef4444', // red
+  '#8b5cf6', // violet
+  '#ec4899', // pink
+  '#22c55e', // green
+  '#06b6d4', // cyan
+  '#f97316', // orange
+  '#a855f7', // purple
 ];
 
 export const DOMAIN_REGEX =

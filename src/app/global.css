@@ -1,7 +1,43 @@
 :root {
+  /* ===================================================================
+     Spectra design tokens — single source of truth for brand + theme.
+     All components route through these; no hardcoded colors elsewhere.
+     (This :root is also the seam for future per-tenant white-labeling.)
+     =================================================================== */
+
+  /* Brand palette */
+  --spectra-emerald: #10b981;
+  --spectra-emerald-strong: #059669;
+  --spectra-emerald-soft: #34d399;
+  --spectra-teal: #14b8a6;
+
+  /* Typography — Inter for UI/data, Raleway for display/headings */
   --font-family: var(--font-inter), sans-serif;
-  --primary: oklch(62.3% 0.214 259.815);
-  --primary-foreground: oklch(98.5% 0 0);
+  --font-display: var(--font-raleway), var(--font-inter), sans-serif;
+
+  /* react-zen accent override (consumed ~20× for buttons/links/active) */
+  --primary: var(--spectra-emerald);
+  --primary-foreground: #ffffff;
+
+  /* Brand focus ring */
+  --focus-ring: var(--spectra-emerald);
+
+  /* Radius scale (Spectra Console — soft but tight) */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* Elevation — low-opacity, engineered look */
+  --shadow-sm: 0 1px 2px rgb(16 24 40 / 0.05);
+  --shadow-md: 0 4px 12px rgb(16 24 40 / 0.08);
+}
+
+[data-theme='dark'] {
+  --primary: var(--spectra-emerald);
+  --primary-foreground: #ffffff;
+  --focus-ring: var(--spectra-emerald-soft);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 6px 20px rgb(0 0 0 / 0.5);
 }
 
 html,
@@ -12,14 +48,39 @@ body {
   background-color: var(--surface-raised);
   width: 100%;
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-html[style*="padding-right"] {
+/* Raleway for headings/display; tighten tracking for a premium feel */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+
+/* Premium micro-interactions — subtle, never gaudy */
+a,
+button,
+[role='button'] {
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.06s ease;
+}
+
+html[style*='padding-right'] {
   padding-right: 0 !important;
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 12px;
   background: transparent;
 }
 
@@ -66,10 +127,10 @@ select:-webkit-autofill:focus {
   gap: 8px;
 }
 
-[data-theme="dark"] .rr-controller__btns button {
+[data-theme='dark'] .rr-controller__btns button {
   color: black;
 }
 
-[data-theme="dark"] .rr-controller__btns .label {
+[data-theme='dark'] .rr-controller__btns .label {
   color: black;
 }

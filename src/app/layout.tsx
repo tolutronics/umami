@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
-import { Inter } from 'next/font/google';
+import { Inter, Raleway } from 'next/font/google';
 import { Suspense } from 'react';
 import { getBaseUrl } from '@/lib/get-base-url';
 import { APP_NAME } from '@/lib/constants';
@@ -14,6 +14,12 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
+const raleway = Raleway({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-raleway',
+});
+
 export default function ({ children }) {
   if (process.env.DISABLE_UI) {
     return (
@@ -24,7 +30,7 @@ export default function ({ children }) {
   }
 
   return (
-    <html lang="en" className={`${inter.className} ${inter.variable}`}>
+    <html lang="en" className={`${inter.className} ${inter.variable} ${raleway.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
