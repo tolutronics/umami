@@ -75,12 +75,13 @@ function BarChartComponent({
             display: false,
           },
           border: {
-            color: colors.chart.line,
+            display: false,
           },
           ticks: {
             color: colors.chart.text,
             autoSkip: false,
             maxRotation: 0,
+            padding: 8,
             callback: renderXLabel,
           },
         },
@@ -91,12 +92,15 @@ function BarChartComponent({
           stacked: !!stacked,
           grid: {
             color: colors.chart.line,
+            drawTicks: false,
+            lineWidth: 1,
           },
           border: {
-            color: colors.chart.line,
+            display: false,
           },
           ticks: {
             color: colors.chart.text,
+            padding: 8,
             callback: renderYLabel || renderNumberLabels,
           },
         },

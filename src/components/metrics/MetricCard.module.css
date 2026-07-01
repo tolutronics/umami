@@ -1,0 +1,43 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.1s ease;
+}
+
+.card:hover {
+  border-color: color-mix(in srgb, var(--spectra-emerald) 45%, var(--border-default));
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+/* Emerald accent edge, revealed on hover */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  background: linear-gradient(var(--spectra-emerald), var(--spectra-teal));
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.value {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}

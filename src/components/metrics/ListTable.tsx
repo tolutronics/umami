@@ -6,6 +6,7 @@ import { AnimatedDiv } from '@/components/common/AnimatedDiv';
 import { Empty } from '@/components/common/Empty';
 import { useMessages, useMobile } from '@/components/hooks';
 import { formatLongNumber } from '@/lib/format';
+import styles from './ListTable.module.css';
 
 const ITEM_SIZE = 30;
 
@@ -117,6 +118,7 @@ const AnimatedRow = ({
 
   return (
     <Grid
+      className={styles.row}
       columns={showPercentage ? '1fr 50px 50px' : '1fr 100px'}
       paddingLeft="2"
       alignItems="center"
@@ -124,6 +126,10 @@ const AnimatedRow = ({
       gap
       hover={{ backgroundColor: 'surface-sunken' }}
     >
+      <AnimatedDiv
+        className={styles.bar}
+        style={{ width: props.width.to(n => `${Math.max(0, Math.min(100, n ?? 0))}%`) }}
+      />
       <Row alignItems="center">
         <Text truncate={true} style={{ maxWidth: isPhone ? '200px' : '400px' }}>
           {label}

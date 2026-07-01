@@ -1,0 +1,27 @@
+.row {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Keep row content above the bar */
+.row > *:not(.bar) {
+  position: relative;
+  z-index: 1;
+}
+
+/* Emerald proportion bar behind each row (Plausible/Datadog style) */
+.bar {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: color-mix(in srgb, var(--spectra-emerald) 14%, transparent);
+  pointer-events: none;
+  transition: background-color 0.15s ease;
+}
+
+.row:hover .bar {
+  background: color-mix(in srgb, var(--spectra-emerald) 22%, transparent);
+}

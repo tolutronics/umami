@@ -5,6 +5,7 @@ import { AnimatedDiv } from '@/components/common/AnimatedDiv';
 import { Info } from '@/components/icons';
 import { ChangeLabel } from '@/components/metrics/ChangeLabel';
 import { formatNumber } from '@/lib/format';
+import styles from './MetricCard.module.css';
 
 export interface MetricCardProps {
   value: number;
@@ -35,6 +36,7 @@ export const MetricCard = ({
 
   return (
     <Column
+      className={styles.card}
       justifyContent="center"
       paddingX="6"
       paddingY="4"
@@ -45,7 +47,7 @@ export const MetricCard = ({
     >
       {showLabel && (
         <Row justifyContent="space-between" alignItems="flex-start">
-          <Text weight="bold" wrap="nowrap">
+          <Text className={styles.label} color="muted" wrap="nowrap">
             {label}
           </Text>
           {tooltip && (
@@ -60,7 +62,7 @@ export const MetricCard = ({
           )}
         </Row>
       )}
-      <Text size="4xl" weight="bold" wrap="nowrap">
+      <Text className={styles.value} size="4xl" weight="bold" wrap="nowrap">
         <AnimatedDiv title={value?.toString()}>{props?.x?.to(x => formatValue(x))}</AnimatedDiv>
       </Text>
       {showChange && (
