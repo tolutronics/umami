@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { APP_NAME } from '@/lib/constants';
 import { SettingsLayout } from './SettingsLayout';
 
 export default function ({ children }) {
@@ -11,7 +12,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Settings | Umami',
-    default: 'Settings | Umami',
+    template: `%s | Settings | ${APP_NAME}`,
+    default: `Settings | ${APP_NAME}`,
   },
 };

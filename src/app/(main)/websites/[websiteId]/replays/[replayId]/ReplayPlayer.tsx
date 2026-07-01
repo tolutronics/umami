@@ -1,6 +1,6 @@
 'use client';
 import { useMobile } from '@/components/hooks';
-import { Column } from '@umami/react-zen';
+import { Column } from '@spectra/react-zen';
 import { useEffect, useRef, useState } from 'react';
 import 'rrweb-player/dist/style.css';
 

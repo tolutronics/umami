@@ -1,6 +1,6 @@
 'use client';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { RouterProvider, ZenProvider } from '@umami/react-zen';
+import { RouterProvider, ZenProvider } from '@spectra/react-zen';
 import { useRouter } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { useEffect } from 'react';

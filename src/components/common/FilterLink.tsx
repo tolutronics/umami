@@ -1,4 +1,4 @@
-import { Icon, Row, Text } from '@umami/react-zen';
+import { Icon, Row, Text } from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 import { type HTMLAttributes, type ReactNode, useState } from 'react';
 import { useMessages, useNavigation } from '@/components/hooks';

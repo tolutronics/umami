@@ -1,5 +1,5 @@
 import { config, useSpring } from '@react-spring/web';
-import { Column, Text } from '@umami/react-zen';
+import { Column, Text } from '@spectra/react-zen';
 import { useRef } from 'react';
 import { AnimatedDiv } from '@/components/common/AnimatedDiv';
 import { Badge } from '@/components/common/Badge';

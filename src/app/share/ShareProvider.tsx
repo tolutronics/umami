@@ -2,7 +2,7 @@
 import { useShareTokenQuery } from '@/components/hooks';
 import { ENTITY_TYPE } from '@/lib/constants';
 import type { WhiteLabel } from '@/lib/types';
-import { Loading } from '@umami/react-zen';
+import { Loading } from '@spectra/react-zen';
 import { usePathname, useRouter } from 'next/navigation';
 import { createContext, type ReactNode, useEffect } from 'react';
 

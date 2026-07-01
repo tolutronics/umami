@@ -8,7 +8,7 @@ import {
   Text,
   Tooltip,
   TooltipTrigger,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { type ReactNode, useState } from 'react';
 import { useMessages } from '@/components/hooks';
 import { Maximize, X } from '@/components/icons';

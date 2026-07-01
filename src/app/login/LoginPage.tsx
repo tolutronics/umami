@@ -1,5 +1,5 @@
 'use client';
-import { Column, Loading } from '@umami/react-zen';
+import { Column, Loading } from '@spectra/react-zen';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import { useLoginQuery } from '@/components/hooks';

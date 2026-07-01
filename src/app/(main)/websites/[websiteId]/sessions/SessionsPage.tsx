@@ -1,5 +1,5 @@
 'use client';
-import { Column, Tab, TabList, TabPanel, Tabs } from '@umami/react-zen';
+import { Column, Tab, TabList, TabPanel, Tabs } from '@spectra/react-zen';
 import { type Key, useState } from 'react';
 import { WebsiteControls } from '@/app/(main)/websites/[websiteId]/WebsiteControls';
 import { Panel } from '@/components/common/Panel';

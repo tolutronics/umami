@@ -1,4 +1,4 @@
-import { Box, Button, Column, Icon, Row, Tooltip, TooltipTrigger } from '@umami/react-zen';
+import { Box, Button, Column, Icon, Row, Tooltip, TooltipTrigger } from '@spectra/react-zen';
 import { produce } from 'immer';
 import { Fragment, useState } from 'react';
 import {

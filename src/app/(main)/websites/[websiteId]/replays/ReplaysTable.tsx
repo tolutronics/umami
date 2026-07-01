@@ -1,4 +1,4 @@
-import { Button, DataColumn, DataTable, type DataTableProps, Icon } from '@umami/react-zen';
+import { Button, DataColumn, DataTable, type DataTableProps, Icon } from '@spectra/react-zen';
 import { Play } from 'lucide-react';
 import Link from '@/components/common/Link';
 import { Avatar } from '@/components/common/Avatar';

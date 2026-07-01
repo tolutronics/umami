@@ -1,4 +1,4 @@
-import { useToast } from '@umami/react-zen';
+import { useToast } from '@spectra/react-zen';
 import { useMessages, useModified } from '@/components/hooks';
 import { Plus } from '@/components/icons';
 import { DialogButton } from '@/components/input/DialogButton';

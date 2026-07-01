@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
+import { APP_NAME } from '@/lib/constants';
 import { App } from './App';
 
 export default function ({ children }) {
@@ -12,7 +13,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Umami',
-    default: 'Umami',
+    template: `%s | ${APP_NAME}`,
+    default: APP_NAME,
   },
 };

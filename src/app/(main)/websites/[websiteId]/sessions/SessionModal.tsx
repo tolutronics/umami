@@ -1,5 +1,5 @@
 'use client';
-import { Column, Dialog, Modal, type ModalProps } from '@umami/react-zen';
+import { Column, Dialog, Modal, type ModalProps } from '@spectra/react-zen';
 import { SessionProfile } from '@/app/(main)/websites/[websiteId]/sessions/SessionProfile';
 import { useNavigation } from '@/components/hooks';
 

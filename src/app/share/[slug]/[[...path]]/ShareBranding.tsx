@@ -1,15 +1,16 @@
 'use client';
 import { useShare } from '@/components/hooks';
 import { Logo } from '@/components/svg';
-import { Icon, Row, Text } from '@umami/react-zen';
+import { APP_NAME, HOMEPAGE_URL } from '@/lib/constants';
+import { Icon, Row, Text } from '@spectra/react-zen';
 
 const LOGO_SIZE = { sm: 24, md: 32, lg: 40 };
 const TEXT_SIZE = { sm: 'sm', md: 'base', lg: 'lg' } as const;
 
 export function ShareBranding({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
   const share = useShare();
-  const logoDomain = share?.whiteLabel?.domainName || 'https://umami.is';
-  const logoName = share?.whiteLabel?.displayName || 'umami';
+  const logoDomain = share?.whiteLabel?.domainName || HOMEPAGE_URL;
+  const logoName = share?.whiteLabel?.displayName || APP_NAME;
   const logoImage = share?.whiteLabel?.logoUrl;
   const height = LOGO_SIZE[size];
 

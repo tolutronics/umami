@@ -1,4 +1,4 @@
-import { Column, Grid, Label, Text } from '@umami/react-zen';
+import { Column, Grid, Label, Text } from '@spectra/react-zen';
 import { LoadingPanel } from '@/components/common/LoadingPanel';
 import { useEventDataQuery } from '@/components/hooks';
 

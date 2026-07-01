@@ -1,5 +1,5 @@
 'use client';
-import { Column, Grid, ListItem, Row, SearchField, Select } from '@umami/react-zen';
+import { Column, Grid, ListItem, Row, SearchField, Select } from '@spectra/react-zen';
 import { useState } from 'react';
 import { WebsiteControls } from '@/app/(main)/websites/[websiteId]/WebsiteControls';
 import { Panel } from '@/components/common/Panel';

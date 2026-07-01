@@ -1,4 +1,4 @@
-import { List, ListItem } from '@umami/react-zen';
+import { List, ListItem } from '@spectra/react-zen';
 import { Empty } from '@/components/common/Empty';
 import { IconLabel } from '@/components/common/IconLabel';
 import { LoadingPanel } from '@/components/common/LoadingPanel';

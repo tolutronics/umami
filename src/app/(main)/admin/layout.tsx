@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { APP_NAME } from '@/lib/constants';
 import { AdminLayout } from './AdminLayout';
 
 export default function ({ children }) {
@@ -11,7 +12,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Admin | Umami',
-    default: 'Admin | Umami',
+    template: `%s | Admin | ${APP_NAME}`,
+    default: `Admin | ${APP_NAME}`,
   },
 };

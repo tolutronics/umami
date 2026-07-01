@@ -7,7 +7,7 @@ import {
   MenuTrigger,
   Popover,
   Text,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { Fragment } from 'react';
 import { useMessages, useNavigation } from '@/components/hooks';
 import { Edit, MoreHorizontal, Share } from '@/components/icons';

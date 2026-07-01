@@ -7,7 +7,7 @@ import {
   within,
 } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { RouterProvider, ZenProvider } from '@umami/react-zen';
+import { RouterProvider, ZenProvider } from '@spectra/react-zen';
 import { NextIntlClientProvider } from 'next-intl';
 import type { ReactElement, ReactNode } from 'react';
 import enUS from '../../public/intl/messages/en-US.json';

@@ -10,7 +10,7 @@ import {
   Loading,
   Row,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useState } from 'react';
 import { useConfig, useLinkQuery, useMessages } from '@/components/hooks';
 import { useUpdateQuery } from '@/components/hooks/queries/useUpdateQuery';

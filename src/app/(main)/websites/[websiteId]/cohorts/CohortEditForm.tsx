@@ -9,7 +9,7 @@ import {
   Label,
   Loading,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useEffect, useState } from 'react';
 import { useMessages, useUpdateQuery, useWebsiteCohortQuery } from '@/components/hooks';
 import { ActionSelect } from '@/components/input/ActionSelect';

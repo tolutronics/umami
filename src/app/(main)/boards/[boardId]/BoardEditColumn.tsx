@@ -13,7 +13,7 @@ import {
   Row,
   Tooltip,
   TooltipTrigger,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useMemo, useState } from 'react';
 import { getComponentDefinition } from '../boardComponentRegistry';
 import { BoardComponentRenderer } from './BoardComponentRenderer';

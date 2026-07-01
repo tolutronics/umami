@@ -1,4 +1,4 @@
-import { ListItem, Select } from '@umami/react-zen';
+import { ListItem, Select } from '@spectra/react-zen';
 import { useState } from 'react';
 import { useMessages } from '@/components/hooks';
 import { CURRENCIES } from '@/lib/constants';

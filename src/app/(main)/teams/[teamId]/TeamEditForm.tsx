@@ -6,7 +6,7 @@ import {
   FormSubmitButton,
   Row,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { IconLabel } from '@/components/common/IconLabel';
 import { useMessages, useTeam, useUpdateQuery } from '@/components/hooks';
 import { RefreshCw } from '@/components/icons';

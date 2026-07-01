@@ -1,11 +1,7 @@
-<p align="center">
-  <img src="https://content.umami.is/website/images/umami-logo.png" alt="Umami Logo" width="100">
-</p>
-
-<h1 align="center">Umami</h1>
+<h1 align="center">Spectra</h1>
 
 <p align="center">
-  <i>Umami is a simple, fast, privacy-focused alternative to Google Analytics.</i>
+  <i>Spectra is privacy-first web analytics for modern teams.</i>
 </p>
 
 <p align="center">
@@ -38,7 +34,7 @@ cd umami
 pnpm install
 ```
 
-### Configure Umami
+### Configure Spectra
 
 Create an `.env` file with the following:
 

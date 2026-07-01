@@ -5,7 +5,7 @@ import {
   type DialogProps,
   DialogTrigger,
   Modal,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import type { CSSProperties, ReactNode } from 'react';
 import { IconLabel } from '@/components/common/IconLabel';
 import { useMobile } from '@/components/hooks';

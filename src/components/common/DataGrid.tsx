@@ -1,5 +1,5 @@
 import type { UseQueryResult } from '@tanstack/react-query';
-import { Column, Row, SearchField } from '@umami/react-zen';
+import { Column, Row, SearchField } from '@spectra/react-zen';
 import {
   cloneElement,
   isValidElement,

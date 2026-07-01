@@ -13,7 +13,7 @@ import {
   Tooltip,
   TooltipTrigger,
   useTheme,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useConfig, useLocale, useLoginQuery, useMessages, useMobile } from '@/components/hooks';
 import {
   BookText,

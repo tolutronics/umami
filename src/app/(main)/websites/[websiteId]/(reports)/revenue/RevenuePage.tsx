@@ -1,5 +1,5 @@
 'use client';
-import { Column } from '@umami/react-zen';
+import { Column } from '@spectra/react-zen';
 import { WebsiteControls } from '@/app/(main)/websites/[websiteId]/WebsiteControls';
 import { useDateRange, useTimezone } from '@/components/hooks';
 import { Revenue } from './Revenue';

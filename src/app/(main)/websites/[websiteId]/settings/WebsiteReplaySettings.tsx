@@ -9,7 +9,7 @@ import {
   Switch,
   Text,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useState } from 'react';
 import { EmptyPlaceholder } from '@/components/common/EmptyPlaceholder';
 import { useMessages, useSubscription, useUpdateQuery, useWebsite } from '@/components/hooks';

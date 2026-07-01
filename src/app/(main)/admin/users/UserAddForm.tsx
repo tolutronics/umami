@@ -8,7 +8,7 @@ import {
   PasswordField,
   Select,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useMessages, useUpdateQuery } from '@/components/hooks';
 import { ROLES } from '@/lib/constants';
 

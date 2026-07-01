@@ -8,10 +8,11 @@ import {
   Icon,
   PasswordField,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useRouter } from 'next/navigation';
 import { useMessages, useUpdateQuery } from '@/components/hooks';
 import { Logo } from '@/components/svg';
+import { APP_NAME } from '@/lib/constants';
 import { setClientAuthToken } from '@/lib/client';
 import { setUser } from '@/store/app';
 
@@ -35,7 +36,7 @@ export function LoginForm() {
       <Icon size="lg">
         <Logo />
       </Icon>
-      <Heading>umami</Heading>
+      <Heading>{APP_NAME}</Heading>
       <Form onSubmit={handleSubmit} error={getErrorMessage(error)} style={{ minWidth: 300 }}>
         <FormField
           label={t(labels.username)}

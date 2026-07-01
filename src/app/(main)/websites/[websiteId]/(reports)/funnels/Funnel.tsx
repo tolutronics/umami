@@ -6,7 +6,7 @@ import { ChangeLabel } from '@/components/metrics/ChangeLabel';
 import { Lightning } from '@/components/svg';
 import { formatLongNumber } from '@/lib/format';
 import type { FunnelResult } from '@/queries/sql/reports/getFunnel';
-import { Box, Column, Grid, Icon, ProgressBar, Row, Text } from '@umami/react-zen';
+import { Box, Column, Grid, Icon, ProgressBar, Row, Text } from '@spectra/react-zen';
 import { FunnelEditForm } from './FunnelEditForm';
 
 interface FunnelProps {

@@ -9,7 +9,7 @@ import {
   Popover,
   Row,
   Text,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 import { Avatar } from '@/components/common/Avatar';
 import { DateDistance } from '@/components/common/DateDistance';

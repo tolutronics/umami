@@ -1,4 +1,4 @@
-import { Checkbox, Row } from '@umami/react-zen';
+import { Checkbox, Row } from '@spectra/react-zen';
 import { useState } from 'react';
 import { useFilters, useMessages, useNavigation } from '@/components/hooks';
 import { ListFilter } from '@/components/icons';

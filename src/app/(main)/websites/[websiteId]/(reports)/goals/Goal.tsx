@@ -1,4 +1,4 @@
-import { Column, Grid, Icon, ProgressBar, Row, Text } from '@umami/react-zen';
+import { Column, Grid, Icon, ProgressBar, Row, Text } from '@spectra/react-zen';
 import { LoadingPanel } from '@/components/common/LoadingPanel';
 import { useMessages, useNavigation, useResultQuery } from '@/components/hooks';
 import { File, User } from '@/components/icons';

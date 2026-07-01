@@ -3,8 +3,9 @@ import { headers } from 'next/headers';
 import { Inter } from 'next/font/google';
 import { Suspense } from 'react';
 import { getBaseUrl } from '@/lib/get-base-url';
+import { APP_NAME } from '@/lib/constants';
 import { Providers } from './Providers';
-import '@umami/react-zen/styles.full.css';
+import '@spectra/react-zen/styles.full.css';
 import './global.css';
 
 const inter = Inter({
@@ -51,8 +52,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: getBaseUrl(headerStore),
     title: {
-      template: '%s | Umami',
-      default: 'Umami',
+      template: `%s | ${APP_NAME}`,
+      default: APP_NAME,
     },
   };
 }

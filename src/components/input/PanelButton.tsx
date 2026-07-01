@@ -1,4 +1,4 @@
-import { Button, type ButtonProps, Icon } from '@umami/react-zen';
+import { Button, type ButtonProps, Icon } from '@spectra/react-zen';
 import { useGlobalState } from '@/components/hooks';
 import { PanelLeft } from '@/components/icons';
 

@@ -1,4 +1,4 @@
-import { Button, Column, Grid, List, ListItem, ListSection } from '@umami/react-zen';
+import { Button, Column, Grid, List, ListItem, ListSection } from '@spectra/react-zen';
 import { useState } from 'react';
 import { type FieldGroup, useFields, useMessages } from '@/components/hooks';
 

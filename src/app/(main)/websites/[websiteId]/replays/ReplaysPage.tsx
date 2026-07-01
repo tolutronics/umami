@@ -6,7 +6,7 @@ import { Panel } from '@/components/common/Panel';
 import { useMessages, useSubscription, useWebsite } from '@/components/hooks';
 import { Video } from '@/components/icons';
 import { getItem, setItem } from '@/lib/storage';
-import { Button, Column, Tab, TabList, TabPanel, Tabs } from '@umami/react-zen';
+import { Button, Column, Tab, TabList, TabPanel, Tabs } from '@spectra/react-zen';
 import { type Key, useState } from 'react';
 import { ReplayModal } from './ReplayModal';
 import { ReplaysDataTable } from './ReplaysDataTable';

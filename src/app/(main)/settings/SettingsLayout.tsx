@@ -1,5 +1,5 @@
 'use client';
-import { Column } from '@umami/react-zen';
+import { Column } from '@spectra/react-zen';
 import type { ReactNode } from 'react';
 import { PageBody } from '@/components/common/PageBody';
 

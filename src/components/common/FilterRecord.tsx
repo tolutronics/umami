@@ -8,7 +8,7 @@ import {
   Loading,
   Select,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useState } from 'react';
 import { Empty } from '@/components/common/Empty';
 import { MultiSelect } from '@/components/common/MultiSelect';

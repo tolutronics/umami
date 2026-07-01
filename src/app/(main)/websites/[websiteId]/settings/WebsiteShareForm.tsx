@@ -1,4 +1,4 @@
-import { Column, Heading, Row, Text } from '@umami/react-zen';
+import { Column, Heading, Row, Text } from '@spectra/react-zen';
 import { Plus } from 'lucide-react';
 import { LoadingPanel } from '@/components/common/LoadingPanel';
 import { useMessages, useWebsiteSharesQuery } from '@/components/hooks';

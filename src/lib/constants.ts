@@ -1,4 +1,10 @@
 export const CURRENT_VERSION = process.env.currentVersion;
+
+// Brand identity (Spectra white-label). Central seam for future per-tenant white-labeling.
+// NOTE: the `umami.*` storage keys and `x-umami-*` headers below are functional identifiers
+// (localStorage/cookies/tracker protocol) — they are intentionally NOT rebranded.
+export const APP_NAME = 'Spectra';
+
 export const AUTH_TOKEN = 'umami.auth';
 export const LOCALE_CONFIG = 'umami.locale';
 export const TIMEZONE_CONFIG = 'umami.timezone';
@@ -10,8 +16,13 @@ export const LAST_TEAM_CONFIG = 'umami.last-team';
 export const VERSION_CHECK = 'umami.version-check';
 export const SHARE_TOKEN_HEADER = 'x-umami-share-token';
 export const SHARE_CONTEXT_HEADER = 'x-umami-share-context';
-export const HOMEPAGE_URL = 'https://umami.is';
-export const DOCS_URL = 'https://umami.is/docs';
+export const HOMEPAGE_URL = 'https://spectra.io';
+export const DOCS_URL = 'https://spectra.io/docs';
+// NOTE (white-label): the three URLs below phone home to Umami's servers.
+// REPO_URL is only linked from the self-hosted "update available" notice, and
+// UPDATES_URL / TELEMETRY_PIXEL are the version-check + telemetry endpoints.
+// For a hosted SaaS you almost certainly want to DISABLE the update notice and
+// telemetry entirely rather than rebrand them — flagged for the WS4 pass.
 export const REPO_URL = 'https://github.com/umami-software/umami';
 export const UPDATES_URL = 'https://api.umami.is/v1/updates';
 export const TELEMETRY_PIXEL = 'https://i.umami.is/a.png';

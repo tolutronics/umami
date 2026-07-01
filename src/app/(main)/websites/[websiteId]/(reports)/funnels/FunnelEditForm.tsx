@@ -13,7 +13,7 @@ import {
   Row,
   Text,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { Fragment, useState } from 'react';
 import { useApi, useMessages, useMobile, useReportQuery, useUpdateQuery } from '@/components/hooks';
 import { Plus, X } from '@/components/icons';

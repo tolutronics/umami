@@ -1,4 +1,4 @@
-import { DataColumn, DataTable, type DataTableProps, Icon } from '@umami/react-zen';
+import { DataColumn, DataTable, type DataTableProps, Icon } from '@spectra/react-zen';
 import type { ReactNode } from 'react';
 import { LinkButton } from '@/components/common/LinkButton';
 import { useMessages, useNavigation } from '@/components/hooks';

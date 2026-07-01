@@ -1,4 +1,4 @@
-import { Button, Icon, Text, Tooltip, TooltipTrigger } from '@umami/react-zen';
+import { Button, Icon, Text, Tooltip, TooltipTrigger } from '@spectra/react-zen';
 import Papa from 'papaparse';
 import { useMessages } from '@/components/hooks';
 import { Download } from '@/components/icons';

@@ -1,4 +1,4 @@
-import { StatusLight, Text } from '@umami/react-zen';
+import { StatusLight, Text } from '@spectra/react-zen';
 import { useMemo } from 'react';
 import { useActyiveUsersQuery, useMessages } from '@/components/hooks';
 

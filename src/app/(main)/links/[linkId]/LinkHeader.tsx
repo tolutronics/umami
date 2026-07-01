@@ -1,4 +1,4 @@
-import { Row } from '@umami/react-zen';
+import { Row } from '@spectra/react-zen';
 import { IconLabel } from '@/components/common/IconLabel';
 import { LinkButton } from '@/components/common/LinkButton';
 import { PageHeader } from '@/components/common/PageHeader';

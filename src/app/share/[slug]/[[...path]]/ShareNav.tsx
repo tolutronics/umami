@@ -15,7 +15,7 @@ import {
   ThemeButton,
   Tooltip,
   TooltipTrigger,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 import { ShareBranding } from './ShareBranding';
 

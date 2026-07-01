@@ -13,6 +13,7 @@ import {
 } from '@/components/icons';
 import { UserButton } from '@/components/input/UserButton';
 import { Logo } from '@/components/svg';
+import { APP_NAME } from '@/lib/constants';
 import {
   Button,
   type ButtonProps,
@@ -23,7 +24,7 @@ import {
   Text,
   Tooltip,
   TooltipTrigger,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 
 export function SideNav(props: any) {
@@ -93,7 +94,7 @@ export function SideNav(props: any) {
         <Row paddingX="3" alignItems="center" justifyContent="space-between" flexGrow="1">
           {!isCollapsed && (
             <IconLabel icon={<Logo />}>
-              <Text weight="bold">umami</Text>
+              <Text weight="bold">{APP_NAME}</Text>
             </IconLabel>
           )}
           <PanelButton />

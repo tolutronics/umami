@@ -1,4 +1,4 @@
-import { Button, Icon } from '@umami/react-zen';
+import { Button, Icon } from '@spectra/react-zen';
 import { useEffect, useRef, useState } from 'react';
 import { Check, Copy } from '@/components/icons';
 

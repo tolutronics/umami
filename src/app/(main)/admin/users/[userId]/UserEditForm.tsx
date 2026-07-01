@@ -7,7 +7,7 @@ import {
   PasswordField,
   Select,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useLoginQuery, useMessages, useUpdateQuery, useUser } from '@/components/hooks';
 import { ROLES } from '@/lib/constants';
 

@@ -7,7 +7,7 @@ import {
   Label,
   Loading,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useEffect, useState } from 'react';
 import { useMessages, useUpdateQuery, useWebsiteSegmentQuery } from '@/components/hooks';
 import { FieldFilters } from '@/components/input/FieldFilters';

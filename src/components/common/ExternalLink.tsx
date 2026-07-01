@@ -1,4 +1,4 @@
-import { Icon, Row, Text } from '@umami/react-zen';
+import { Icon, Row, Text } from '@spectra/react-zen';
 import Link, { type LinkProps } from '@/components/common/Link';
 import type { ReactNode } from 'react';
 import { ExternalLink as LinkIcon } from '@/components/icons';

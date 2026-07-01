@@ -1,5 +1,5 @@
 import { useSpring } from '@react-spring/web';
-import { Button, Column, Icon, Row, Text, Tooltip, TooltipTrigger } from '@umami/react-zen';
+import { Button, Column, Icon, Row, Text, Tooltip, TooltipTrigger } from '@spectra/react-zen';
 import type { ReactNode } from 'react';
 import { AnimatedDiv } from '@/components/common/AnimatedDiv';
 import { Info } from '@/components/icons';

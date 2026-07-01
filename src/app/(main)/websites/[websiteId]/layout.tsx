@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { WebsiteLayout } from '@/app/(main)/websites/[websiteId]/WebsiteLayout';
+import { APP_NAME } from '@/lib/constants';
 import { getWebsite } from '@/queries/prisma';
 
 export default async function ({
@@ -28,7 +29,7 @@ export default async function ({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Umami',
-    default: 'Websites | Umami',
+    template: `%s | ${APP_NAME}`,
+    default: `Websites | ${APP_NAME}`,
   },
 };

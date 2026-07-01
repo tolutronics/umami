@@ -12,7 +12,7 @@ import {
   TabPanel,
   Tabs,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { X } from 'lucide-react';
 import { SessionActivity } from './SessionActivity';
 import { SessionData } from './SessionData';

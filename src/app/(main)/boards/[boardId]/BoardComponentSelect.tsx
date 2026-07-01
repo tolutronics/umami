@@ -7,7 +7,7 @@ import {
   Select,
   Text,
   TextField,
-} from '@umami/react-zen';
+} from '@spectra/react-zen';
 import { useEffect, useMemo, useState } from 'react';
 import { useMessages } from '@/components/hooks';
 import { LinkSelect } from '@/components/input/LinkSelect';

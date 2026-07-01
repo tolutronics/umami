@@ -1,4 +1,4 @@
-import { Column, Grid, Heading, Tab, TabList, TabPanel, Tabs } from '@umami/react-zen';
+import { Column, Grid, Heading, Tab, TabList, TabPanel, Tabs } from '@spectra/react-zen';
 import { useMemo, useState } from 'react';
 import { DataGrid } from '@/components/common/DataGrid';
 import { GridRow } from '@/components/common/GridRow';

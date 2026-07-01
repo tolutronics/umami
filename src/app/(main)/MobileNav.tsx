@@ -1,4 +1,4 @@
-import { Column, Grid, Row, Text } from '@umami/react-zen';
+import { Column, Grid, Row, Text } from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 import { WebsiteNav } from '@/app/(main)/websites/[websiteId]/WebsiteNav';
 import { IconLabel } from '@/components/common/IconLabel';
@@ -7,6 +7,7 @@ import { Globe, Grid2x2, LayoutDashboard, LinkIcon } from '@/components/icons';
 import { MobileMenuButton } from '@/components/input/MobileMenuButton';
 import { UserButton } from '@/components/input/UserButton';
 import { Logo } from '@/components/svg';
+import { APP_NAME } from '@/lib/constants';
 import { AdminNav } from './admin/AdminNav';
 import { SettingsNav } from './settings/SettingsNav';
 
@@ -78,7 +79,7 @@ export function MobileNav() {
       </MobileMenuButton>
       <Row alignItems="center" justifyContent="center" flexGrow={1}>
         <IconLabel icon={<Logo />} style={{ width: 'auto' }}>
-          <Text weight="bold">umami</Text>
+          <Text weight="bold">{APP_NAME}</Text>
         </IconLabel>
       </Row>
     </Grid>

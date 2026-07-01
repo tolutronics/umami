@@ -1,4 +1,4 @@
-import { Button, Column, Dialog, DialogTrigger, Modal } from '@umami/react-zen';
+import { Button, Column, Dialog, DialogTrigger, Modal } from '@spectra/react-zen';
 import { ActionForm } from '@/components/common/ActionForm';
 import {
   useLoginQuery,

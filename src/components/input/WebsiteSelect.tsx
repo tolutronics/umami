@@ -1,4 +1,4 @@
-import { Icon, ListItem, Row, Select, type SelectProps, Text } from '@umami/react-zen';
+import { Icon, ListItem, Row, Select, type SelectProps, Text } from '@spectra/react-zen';
 import { useEffect, useState } from 'react';
 import { Empty } from '@/components/common/Empty';
 import {

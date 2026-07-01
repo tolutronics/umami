@@ -1,4 +1,4 @@
-import { DataColumn, DataTable, type DataTableProps, Row } from '@umami/react-zen';
+import { DataColumn, DataTable, type DataTableProps, Row } from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 import { CohortDeleteButton } from '@/app/(main)/websites/[websiteId]/cohorts/CohortDeleteButton';
 import { CohortEditButton } from '@/app/(main)/websites/[websiteId]/cohorts/CohortEditButton';

@@ -1,4 +1,4 @@
-import { Button, Column, Heading, Row, Text } from '@umami/react-zen';
+import { Button, Column, Heading, Row, Text } from '@spectra/react-zen';
 import { useState } from 'react';
 import { Plus } from '@/components/icons';
 import { LoadingPanel } from '@/components/common/LoadingPanel';

@@ -1,4 +1,4 @@
-import { Column, Heading, Row, SearchField, Text } from '@umami/react-zen';
+import { Column, Heading, Row, SearchField, Text } from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 import { useMemo, useState } from 'react';
 import { FixedSizeList } from 'react-window';

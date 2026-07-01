@@ -22,7 +22,7 @@ import { PageBody } from '@/components/common/PageBody';
 import { useShare } from '@/components/hooks';
 import { MobileMenuButton } from '@/components/input/MobileMenuButton';
 import { ENTITY_TYPE } from '@/lib/constants';
-import { Column, Grid, Row, useTheme } from '@umami/react-zen';
+import { Column, Grid, Row, useTheme } from '@spectra/react-zen';
 import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { ShareFooter } from './ShareFooter';

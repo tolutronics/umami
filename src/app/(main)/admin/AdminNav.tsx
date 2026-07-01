@@ -2,7 +2,7 @@ import { IconLabel } from '@/components/common/IconLabel';
 import { NavMenu } from '@/components/common/NavMenu';
 import { useMessages, useNavigation } from '@/components/hooks';
 import { ArrowLeft, Globe, User, Users } from '@/components/icons';
-import { Column, Focusable, Row, Tooltip, TooltipTrigger } from '@umami/react-zen';
+import { Column, Focusable, Row, Tooltip, TooltipTrigger } from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 
 export function AdminNav({ onItemClick }: { onItemClick?: () => void }) {

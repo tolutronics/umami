@@ -1,4 +1,4 @@
-import { DataColumn, DataTable, type DataTableProps, Row } from '@umami/react-zen';
+import { DataColumn, DataTable, type DataTableProps, Row } from '@spectra/react-zen';
 import Link from '@/components/common/Link';
 import { DateDistance } from '@/components/common/DateDistance';
 import { ExternalLink } from '@/components/common/ExternalLink';

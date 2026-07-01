@@ -1,4 +1,4 @@
-import { Row } from '@umami/react-zen';
+import { Row } from '@spectra/react-zen';
 import { useMessages } from '@/components/hooks';
 
 export interface EmptyProps {

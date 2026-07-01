@@ -1,5 +1,5 @@
 'use client';
-import { Column, Row } from '@umami/react-zen';
+import { Column, Row } from '@spectra/react-zen';
 import { ExpandedViewModal } from '@/app/(main)/websites/[websiteId]/ExpandedViewModal';
 import { Panel } from '@/components/common/Panel';
 import { UnitFilter } from '@/components/input/UnitFilter';

@@ -1,4 +1,4 @@
-import { Column } from '@umami/react-zen';
+import { Column } from '@spectra/react-zen';
 import { Panel } from '@/components/common/Panel';
 import { WebsiteData } from './WebsiteData';
 import { WebsiteEditForm } from './WebsiteEditForm';

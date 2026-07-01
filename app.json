@@ -1,8 +1,8 @@
 {
-  "name": "Umami",
-  "description": "Umami is a simple, fast, website analytics alternative to Google Analytics.",
+  "name": "Spectra",
+  "description": "Spectra is privacy-first web analytics for modern teams.",
   "keywords": ["analytics", "charts", "statistics", "web-analytics"],
-  "website": "https://umami.is",
+  "website": "https://spectra.io",
   "repository": "https://github.com/umami-software/umami",
   "addons": ["heroku-postgresql"],
   "env": {
